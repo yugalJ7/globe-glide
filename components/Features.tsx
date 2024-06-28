@@ -41,12 +41,12 @@ const Features = () => {
   );
 };
 
-interface FeatureProp {
+type FeatureProp = {
   title: string;
   icon: string;
 
   description: string;
-}
+};
 
 const FeatureItem = ({ title, icon, description }: FeatureProp) => {
   return (
